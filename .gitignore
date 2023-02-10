@@ -20,7 +20,6 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-ios/.xcode.env.local
 
 # Android/IntelliJ
 #
@@ -29,15 +28,15 @@ build/
 .gradle
 local.properties
 *.iml
-*.hprof
-.cxx/
 
 # node.js
 #
 node_modules/
 npm-debug.log
 yarn-error.log
-
+android
+ios
+__tests__
 # BUCK
 buck-out/
 \.buckd/
@@ -51,18 +50,12 @@ buck-out/
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-**/fastlane/report.xml
-**/fastlane/Preview.html
-**/fastlane/screenshots
-**/fastlane/test_output
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
 
 # Bundle artifact
 *.jsbundle
 
-# Ruby / CocoaPods
-/android
-/ios
-/__test__
-/.bundle
+# CocoaPods
 /ios/Pods/
-/vendor/bundle/
