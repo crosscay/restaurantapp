@@ -1,5 +1,13 @@
 // AGREGA TUS CREDENCIALES AQUI
 
+// let settings = Firestore.firestore().settings
+// settings.host = "localhost:8080"
+// settings.isPersistenceEnabled = false 
+// settings.isSSLEnabled = false
+// Firestore.firestore().settings = settings
+
+
+
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
     apiKey: "AIzaSyAL--8uVSWhe4vEg83MXPJQ2_aBLJuX3yM",
@@ -10,5 +18,6 @@ const firebaseConfig = {
     appId: "1:662535003861:web:981e31bd35b3c2a6f6cc5c",
     measurementId: "G-6FJV0DBDYF"
   };
+  
 
 export default firebaseConfig;

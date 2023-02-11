@@ -8,7 +8,7 @@ import { OBTENER_PRODUCTOS_EXITO } from '../../types';
 import _ from 'lodash';
 
 const FirebaseState = props => {
-
+    console.log('platillos')
     // Crear state inicial
     const initialState = {
         menu: []
@@ -20,7 +20,6 @@ const FirebaseState = props => {
     // Función que se ejecuta para traer los productos
     const obtenerProductos = () => {
   
-
         // consultar firebase
         firebase.db
             .collection('productos')
